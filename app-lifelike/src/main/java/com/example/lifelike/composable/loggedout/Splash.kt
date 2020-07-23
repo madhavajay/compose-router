@@ -5,14 +5,7 @@ import androidx.ui.core.Alignment
 import androidx.ui.core.Modifier
 import androidx.ui.foundation.Box
 import androidx.ui.foundation.Text
-import androidx.ui.layout.Arrangement
-import androidx.ui.layout.Column
-import androidx.ui.layout.DpConstraints
-import androidx.ui.layout.fillMaxSize
-import androidx.ui.layout.fillMaxWidth
-import androidx.ui.layout.padding
-import androidx.ui.layout.preferredSizeIn
-import androidx.ui.layout.wrapContentSize
+import androidx.ui.layout.*
 import androidx.ui.material.MaterialTheme
 import androidx.ui.text.AnnotatedString
 import androidx.ui.text.ParagraphStyle

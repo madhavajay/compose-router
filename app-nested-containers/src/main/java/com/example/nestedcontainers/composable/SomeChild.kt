@@ -8,8 +8,10 @@ import androidx.ui.foundation.Text
 import androidx.ui.foundation.clickable
 import androidx.ui.foundation.shape.corner.RoundedCornerShape
 import androidx.ui.graphics.Color
-import androidx.ui.layout.*
-import androidx.ui.material.Button
+import androidx.ui.layout.Column
+import androidx.ui.layout.Row
+import androidx.ui.layout.padding
+import androidx.ui.layout.wrapContentHeight
 import androidx.ui.material.MaterialTheme
 import androidx.ui.material.Surface
 import androidx.ui.res.colorResource
