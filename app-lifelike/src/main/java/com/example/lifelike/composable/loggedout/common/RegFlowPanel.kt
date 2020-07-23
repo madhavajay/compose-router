@@ -14,7 +14,7 @@ import com.example.lifelike.composable.common.BigButton
 fun RegFlowPanel(
     title: String,
     onNext: () -> Unit,
-    content: @Composable() () -> Unit = {}
+    content: @Composable () -> Unit = {}
 ) {
     Column(
         modifier = Modifier.fillMaxSize().padding(40.dp),
