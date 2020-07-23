@@ -1,11 +1,13 @@
 # compose-router
 
+[![Build](https://github.com/zsoltk/compose-router/workflows/Build/badge.svg)](https://github.com/zsoltk/compose-router/actions)
 [![Version](https://jitpack.io/v/zsoltk/compose-router.svg)](https://jitpack.io/#zsoltk/compose-router)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ![logo](https://i.imgur.com/kKcAHa3.png)
 
 ## What's this?
+
 Routing functionality for Jetpack Compose with back stack:
 
 - Helps to map your whole app structure using Compose — not just the UI parts
