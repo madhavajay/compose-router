@@ -53,7 +53,6 @@ fun <T> Router(
     children: @Composable (BackStack<T>) -> Unit
 ) {
     val route = AmbientRouting.current
-    // @Suppress("UNCHECKED_CAST")
     val routingFromAmbient = route.firstOrNull() as? T
     val downStreamRoute = if (route.size > 1) route.takeLast(route.size - 1) else emptyList()
 
@@ -88,9 +87,7 @@ private fun <T> fetchBackStack(key: String, defaultElement: T, override: T?): Ba
     val upstreamBundle = AmbientSavedInstanceState.current
     val onElementRemoved: (Int) -> Unit = { upstreamBundle.remove(key(it)) }
 
-    // @Suppress("UNCHECKED_CAST")
     val existing = backStackMap[key] as BackStack<T>?
-    // @Suppress("UNCHECKED_CAST")
     return when {
         override != null -> BackStack(override as T, onElementRemoved)
         existing != null -> existing

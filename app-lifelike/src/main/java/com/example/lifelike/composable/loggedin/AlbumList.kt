@@ -25,10 +25,8 @@ interface AlbumList {
         @Composable
         fun Content(onAlbumSelected: (Album) -> Unit) {
             ScrollableColumn {
-                Column {
-                    albums.forEach {
-                        AlbumRow(it, onAlbumSelected)
-                    }
+                albums.forEach {
+                    AlbumRow(it, onAlbumSelected)
                 }
             }
         }
